@@ -30,6 +30,13 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// Spring Security
+//	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// Spring Security OAuth2 Client for GitHub login
+	// OAuth2 클라이언트 기능을 추가해 GitHub 등의 외부 OAuth 제공자를 사용한 인증을 쉽게 설정할 수 있게 합니다.
+//	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 }
 
 tasks.named('test') {
